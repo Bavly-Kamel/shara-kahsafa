@@ -54,7 +54,7 @@ body {
   color: inherit;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .content h1 {
     font-size: 26px;
   }

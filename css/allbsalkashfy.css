@@ -61,7 +61,7 @@ body {
   color: inherit;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .buttons {
     width: 300px;
   }
