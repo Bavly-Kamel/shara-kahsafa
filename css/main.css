@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  cursor: url("../imgs/cursor/icons8-fire-28.png"), auto;
 }
 
 h1 {
@@ -77,13 +78,14 @@ h1 {
 }
 
 .buttons {
-  width: 1200px;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-block: 30px;
 }
 
 .buttons a {
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
   color: inherit;
 }

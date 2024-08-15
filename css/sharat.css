@@ -77,10 +77,29 @@ body {
   );
   color: white;
   border: 5px solid rgb(9, 120, 172);
+  /* border: 5px solid
+    linear-gradient(
+      180deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    ); */
   border-radius: 8px;
   margin: 20px;
   padding: 10px;
   transition: 0.3s;
+  /* position: relative; */
+}
+.pages .page-1::before {
+  content: "";
+  width: 351px;
+  height: 351px;
+  border: 5px solid white;
+  position: absolute;
+  top: 5px;
+  right: -33px;
+  bottom: 0;
+  left: 5px;
+  border-radius: inherit;
 }
 
 .pages .page-6 {
